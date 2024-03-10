@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora con JS</h1>
+    <div class="cuerpoCalc">
+        <input type="text" readonly id="pantallita">
+        <br>
+        <input id="" type="button" value="7" onclick="pantalla('7')"></input>
+        <input id="" type="button" value="8" onclick="pantalla('8')"></input>
+        <input id="" type="button" value="9" onclick="pantalla('9')"></input>
+        <input id="" type="button" value="/" onclick="pantalla('/')"></input> 
+        <br>
+        <input id="" type="button" value="4" onclick="pantalla('4')"></input>
+        <input id="" type="button" value="5" onclick="pantalla('5')"></input>
+        <input id="" type="button" value="6" onclick="pantalla('6')"></input> 
+        <input id="" type="button" value="*" onclick="pantalla('*')"></input> 
+        <br>
+        <input id="" type="button" value="1" onclick="pantalla('1')"></input>
+        <input id="" type="button" value="2" onclick="pantalla('2')"></input>
+        <input id="" type="button" value="3" onclick="pantalla('3')"></input> 
+        <input id="" type="button" value="-" onclick="pantalla('-')"></input> 
+        <br>
+        <input id="" type="button" value="0" onclick="pantalla('0')"></input>
+        <input id="" type="button" value="." onclick="pantalla('.')"></input>
+        <input id="" type="button" value="=" onclick="calcular()"></input> 
+        <input id="" type="button" value="+" onclick="pantalla('+')"></input>
+        <br>
+
+        <input type="button" value="C" onclick="borrar()">
+        <input type="button" value="CC" onclick="borrarTodo()">
+    </div>
+
+    <a href="index.html">Inicio</a>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>
