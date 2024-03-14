@@ -9,7 +9,7 @@ function borrarTodo(){
 }
 
 function borrar(){
-    document.getElementById('pantallita').value = document.getElementById('pantallita').value.slice(-1)
+    document.getElementById('pantallita').value = document.getElementById('pantallita').value.slice(0,-1)
 }
 
 function calcular(){

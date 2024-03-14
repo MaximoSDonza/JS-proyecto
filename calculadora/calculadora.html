@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc-style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora con JS</h1>
+    <div class="cuerpoCalc">
+        <div class="pantalla">
+            <input type="text" class="pantallita" readonly id="pantallita" value="">
+        </div>
+        <div class="columnero">
+
+            <div class="columna1">
+
+                <input  type="button" value="7" onclick="pantalla('7')"></input>
+                <input  type="button" value="8" onclick="pantalla('8')"></input>
+                <input  type="button" value="9" onclick="pantalla('9')"></input>
+                <input  type="button" value="/" onclick="pantalla('/')"></input> 
+    
+            </div>
+            <div class="columna2">
+    
+                <input  type="button" value="4" onclick="pantalla('4')"></input>
+                <input  type="button" value="5" onclick="pantalla('5')"></input>
+                <input  type="button" value="6" onclick="pantalla('6')"></input> 
+                <input  type="button" value="*" onclick="pantalla('*')"></input> 
+                
+    
+            </div>
+            <div class="columna3">
+    
+                <input  type="button" value="1" onclick="pantalla('1')"></input>
+                <input  type="button" value="2" onclick="pantalla('2')"></input>
+                <input  type="button" value="3" onclick="pantalla('3')"></input> 
+                <input  type="button" value="-" onclick="pantalla('-')"></input> 
+               
+    
+            </div>
+            <div class="columna4">
+    
+                <input  type="button" value="0" onclick="pantalla('0')"></input>
+                <input  type="button" value="." onclick="pantalla('.')"></input>
+                <input  type="button" value="=" onclick="calcular()"></input> 
+                <input  type="button" value="+" onclick="pantalla('+')"></input>
+                 
+    
+            </div>
+
+        </div>
+        
+        
+        <div class="columna5">
+
+            <input type="button" value="C" onclick="borrar()">
+            <input type="button" value="CC" onclick="borrarTodo()">
+
+        </div>
+    </div>
+
+    <a href="../index.html">Inicio</a>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>

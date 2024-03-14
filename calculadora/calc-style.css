@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+}
+
+.cuerpoCalc{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40vh;
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cuerpoCalc input{
+    padding: 2vh;
+    background-color: white;
+    border-radius: 1vh;
+    border: 2px solid cadetblue ;
+}
+
+.pantalla{
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.pantalla.pantallita{
+    padding: 2vh;
+    height: 2vh;
+    width: 2vh;
+    text-align: center;
+    overflow: none;
+    border-radius: 1vh;
+}
+
+.cuerpoCalc .columna1{
+    margin: 1vh;
+    padding: 1vh;
+}
+
+.cuerpoCalc .columna2{  
+    margin: 1vh;
+    padding: 1vh;
+}
+
+.cuerpoCalc .columna3{
+    margin: 1vh;
+    padding: 1vh;
+
+}
+
+.cuerpoCalc .columna4{
+    margin: 1vh;
+    padding: 1vh;
+
+}
+
+.cuerpoCalc .columna5{
+    background-color: white;
+    margin: 1vh;
+    padding: 1vh;
+    border-color: white;
+    border-radius: 1vh;    
+} 
+
+.columnero{
+    background-color: white;
+    border-radius: 1vh;
+    border-color: white ;
+}
+
+a{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 1vh;
+    padding: 1vh;
+}
